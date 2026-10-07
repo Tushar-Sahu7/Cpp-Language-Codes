@@ -11,7 +11,7 @@ int main()
     cin >> b;
     c = a + b;
     cout << "The sum is " << c << endl;
-    cout << "The global c is " << ::c;
+    cout << "The global c is " << ::c << endl;
 
     //******** Float, double and long double  Literals ********
     float d = 34.4F;
@@ -21,27 +21,26 @@ int main()
     cout << "The size of 34.4F is " << sizeof(34.4F) << endl;
     cout << "The size of 34.4l is " << sizeof(34.4l) << endl;
     cout << "The size of 34.4L is " << sizeof(34.4L) << endl;
-    cout << "The value of d is " << d << endl
-         << "The value of e is " << e;
+    cout << "The value of d is " << d << endl << "The value of e is " << e << endl;
 
     //******** Reference Variable ********
-    float x = 455;
+    float x = 455.5;
     float &y = x;
     cout << x << endl;
     cout << y << endl;
 
     //************ Typecasting ************
-    int a = 45;
-    float b = 45.46;
-    cout << "The value of a is " << (float)a << endl;
-    cout << "The value of b is " << (float)a << endl;
+    int t = 45;
+    float s = 45.99;
+    cout << "The value of t is " << (float)t << endl;
+    cout << "The value of t is " << (float)t << endl;
 
-    cout << "The value of b is " << (int)b << endl;
-    cout << "The value of b is " << (int)b << endl;
-    int c = int(b);
+    cout << "The value of s is " << (int)s << endl;
+    cout << "The value of s is " << (int)s << endl;
+    int u = int(s);
 
-    cout << "The expression is " << a + b << endl;
-    cout << "The expression is " << a + int(b) << endl;
-    cout << "The expression is " << a + (int)b << endl;
+    cout << "The expression is " << t + s << endl;
+    cout << "The expression is " << t + int(s) << endl;
+    cout << "The expression is " << t + (int)s << endl;
     return 0;
 }

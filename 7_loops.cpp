@@ -21,11 +21,11 @@ int main()
     //     loop body(C++ code);
     // }
 
-    // for (int i = 1; i <= 40; i++)
-    // {
-    //     /* code */
-    //     cout<<i<<endl;
-    // }
+    for (int i = 1; i <= 40; i++)
+    {
+        /* code */
+        cout << i << endl;
+    }
 
     // Example of infinite for loop
     // for (int i = 1; 34 <= 40; i++)
@@ -36,6 +36,7 @@ int main()
 
     /*While loop in C++*/
     // Syntax:
+    // initialization
     // while(condition)
     // {
     //     C++ statements;

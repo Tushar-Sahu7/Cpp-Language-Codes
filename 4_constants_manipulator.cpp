@@ -3,12 +3,12 @@
 using namespace std;
 int main()
 {
-    // Constans in C++
+    // Constants in C++
     const float x = 3.11;
     cout << "The value of a was: " << x << endl;
     // a = 45.6;
     cout << "the value of a is: " << x << endl;
-    int a = 3, b = 78, c = 1233;
+    int a = 3, b = 78, c = 1235;
     cout << "The value of a without setw is: " << a << endl;
     cout << "The value of b without setw is: " << b << endl;
     cout << "The value of c without setw is: " << c << endl;
